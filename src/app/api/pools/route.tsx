@@ -2,6 +2,8 @@
 import { Asset, BaseDataProvider, Dexter, DexterConfig, KupoProvider, LiquidityPool, Minswap, MuesliSwap, RequestConfig, SundaeSwap, Token, VyFinance, WingRiders } from '@indigo-labs/dexter';
 import { NextResponse } from 'next/server'
 import { KoiosTokenRegistryProvider } from './KoiosTokenRegistryProvider';
+
+//http://localhost:3000/api/pools
 //POST INPUT
 // {
 //     "sellCoin": {
